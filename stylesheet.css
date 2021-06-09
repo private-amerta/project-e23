@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear{
+  clear:left;
+}
+
+.greyback{
+  color: white;
+  padding: 40px 120px;
+  border-radius: 4px;
+  font-weight: normal;
+  display: block;
+  background: rgba(55, 54, 54, 0.774);
+  font-family: 'Lucida Grande';
+}
+
+.container {
+  max-width:1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.youtube {
+  background-color: rgb(214, 21, 21);
+}
+
+.instagram {
+  background-color: rgb(184, 24, 45);
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 50px;
+  text-align: center;
+  font-family: helvetica;
+  margin: 10px 0;
+}
+
+.btn-sos{
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.right{
+  text-align:right;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  display: block;
+  
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+/*HEADING*/
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.subjudul{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
+/*HEADER*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(192, 202, 204, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header h1{
+  color:white;
+}
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+/*.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}*/
+
+/*NAVIGASI*/
+.topnavlogo {
+  overflow: hidden;
+  line-height: 65px;
+  float: left;
+  display: block;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  line-height: 65px;
+  display: block;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}*/
+
+.topnav .icon {
+  display: none;
+}
+
+/*CONTENT*/
+.main-top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("asset/background-2.jpg");
+  background-size: cover;
+  color: white;
+  text-align: right;
+}
+
+.main-top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.main-top-wrapper p {
+  margin-bottom: 6px;
+  color: white;
+}
+
+.donasi{
+  background-color: #cfa557 ;
+  margin-right: 10px;
+}
+
+.kumpulan{
+  background-color: #0775c8;
+}
+
+.about-wrapper {
+  padding: 90px 0 100px 0;
+  background-image: url(https://id.edu.rs/wp-content/uploads/2020/02/Suasana-Taman-Bacaan-Masyarakat-Harus-Menyenangkan-681x454.jpg);
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.about {
+  float: left;
+  width: 25%;
+}
+
+.about-icon {
+  position: relative;
+}
+
+.about-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: black;
+}
+
+.service-wrapper {
+  margin: 30px 0 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service {
+  float: left;
+  width: 25%;
+}
+
+.service-icon p{
+  position: absolute;
+  top: 44%;
+  width: 100%;
+}
+
+/*CARD SERVICES*/
+.container-services{
+  padding: 0;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+	margin: 5px 15px;
+	gap:20px;
+	position: relative;
+}
+
+.card{
+  width: 100%;
+	height: auto;
+	grid-column: span 8;
+	margin: 10px 0;
+	border-radius: 15px;
+	position: relative;
+	box-shadow: 0 10px 10px rgba(0,0,0,.1);
+
+}
+
+.head-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.body-card {
+	padding: 10px 15px;
+}
+
+.body-card h1 {
+	margin: 0;	
+}
+
+.body-card p{
+  text-align: justify;
+}
+
+.contactus-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+
+/*FOOTER*/
+footer img {
+  width: 200px;
+}
+
+footer p {
+  color: black;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+footer {
+  height: 65px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+footer h7{
+  padding-bottom: 5px;
+}
+
+.icon-footer-login {
+  padding-left: 10px;
+  padding-right: 10px;
+}
